@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f2dfb4;
+}
+.container {
+  width: 800px;
+  height: 630px;
+  background: white;
+  float: left;
+  box-sizing: border-box;
+  box-shadow: 4px 5px 15px black;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.fixed {
+  width: 450px;
+  height: 500px;
+  box-sizing: border-box;
+  background-color: #ecc057;
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  box-shadow: 4px 5px 15px black;
+}
+.container h1 {
+  text-align: center;
+  box-shadow: 4px 5px 15px black;
+  text-shadow: 2px 3px 10px green;
+}
+.card-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 4px 3px 15px black;
+}
+
+.card-img {
+  width: 40%;
+  text-align: center;
+  box-shadow: 4px 3px 15px black;
+  padding: 20px;
+  margin-top: 20px;
+  float: left;
+  margin-left: 20px;
+}
+.card-title {
+  float: left;
+  padding-top: 30px;
+  padding-left: 100px;
+}
+
+.card-title h3 {
+  font-size: 1.6rem;
+  color: teal;
+}
+h3.price {
+  color: red;
+}
+
+.icone {
+  color: black;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: background 0.5s;
+  border-radius: 50%;
+  padding: 5px 7px;
+}
+.icone:hover {
+  background: teal;
+  color: #fff;
+}
+.input-icon {
+  width: 80px;
+  background-color: teal;
+  color: black;
+  padding: 10px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.item {
+  font-size: 1.6rem;
+}
+.clear {
+  clear: both;
+}
+.hr-style {
+  border: 4px solid gray;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fixed {
+  padding-left: 25px;
+}
+.kupon {
+  color: rgb(8, 48, 48);
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 20px;
+}
+.code {
+  color: rgb(219, 20, 219);
+  text-align: center;
+  font-size: 1.5rem;
+}
+.kuponInput {
+  width: 40%;
+  padding: 8px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.apply {
+  background: tomato;
+  color: white;
+  font-size: 1.2rem;
+  padding: 6px 15px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+.collerChange {
+  color: rgb(255, 51, 0);
+}

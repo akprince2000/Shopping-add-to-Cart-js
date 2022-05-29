@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Add To Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Prince Restuarant</h1>
+        <div class="card">
+            <div class="card-img">
+                <img src="./Img/flower-1.jpg" alt="" srcset="" />
+            </div>
+            <div class="card-title">
+                <h3>Chicken Piza</h3>
+                <h3>Size : 6'</h3>
+                <h3 class="price">Price :<span id="price"> 200 </span> Tk</h3>
+                <br />
+                <i class="fa-solid fa-plus icone" onclick="increament('count','price','item')"></i>
+                <input class="input-icon" type="button" name="" id="count" value="0" />
+                <i class="fa-solid fa-minus icone" onclick="decrement('count','price','item')"></i>
+                <span class="item">Your Items <span id="item">00</span></span>
+            </div>
+        </div>
+        <div class="clear">
+            <hr class="hr-style" />
+        </div>
+        <!-- Section Two  -->
+        <div class="card">
+            <div class="card-img">
+                <img src="./Img/flower-2.jpg" alt="" srcset="" />
+            </div>
+            <div class="card-title">
+                <h3>Chicken Bargar</h3>
+                <h3>Size : 12'</h3>
+                <h3 class="price">Price : <span id="price1">150</span> tk</h3>
+                <br />
+
+                <i class="fa-solid fa-plus icone" onclick="increament('count1','price1','item1')"></i>
+
+                <input class="input-icon" type="button" name="" id="count1" value="0" />
+
+                <i class="fa-solid fa-minus icone" onclick="decrement('count1','price1','item1')"></i>
+
+                <span class="item1">Your Items <span id="item1">00</span></span>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed">
+        <h1 class="total">The total Amount or</h1>
+        <h2>Product Amount : <span id="pr_amount">00</span></h2>
+        <h2>charge : <span id="charge">50</span>Tk</h2>
+        ----------------------------------------------------------------------------
+        <h2 class="">Total Product Amount :<span id="totalAmount">00</span> Tk</h2>
+        <br />
+        <hr />
+        <br /><br /><br />
+
+
+
+        <div class="kupon" id="kupon_main_div">
+            <h4 class="kupon">Your Kupon Kode with <b class="collerChange">50tk</b> less</h4>
+            <br />
+            <h4 class="code">Your Code Is : akPrince</h4>
+            <br />
+            <input class="kuponInput" type="text" name="" id="kuponInput" placeholder="your kupon is " /><br />
+        </div>
+
+
+        <button class="apply" id="applybtn">Apply</button>
+
+    </div>
+
+    <!-- 
+     -->
+    <script src="app.js"></script>
+</body>
+
+</html>
